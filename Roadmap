@@ -1,0 +1,38 @@
+
+# Roadmap
+
+## Day 1
+
+1. Mise en place d'un player basique : pour lancer les vidéos
+2. Mise en place d'une vue basique pour le palyer d'une vidéo.
+3. Début du modèle interne (recerche des podcasts).
+4. Recherche des podcasts.
+
+
+## Day 2
+1. Gérer les bugs éventuels
+2. Affichage de la liste des résultats de la recherche
+3. Affichage du player du podcasts sélectionnée
+4. Compléter la vue principale.
+5. Connecter le modèle à la vue principale
+
+## Day 3
+
+1. Mise en place de la page personnelle
+2. Affichage des podcasts téléchargé
+3. Modification des informations de cette podcast
+4. Upload d'une épisode ou d'un podcast.
+5. Connecter le modèle à la vue principale
+
+## Day 4
+
+1. Ajouter un menu pour connexion  
+3. Recherche pour améliorer la réactivité
+
+
+## Day 5
+
+1. Résolution de bugs éventuels
+2. Procédure de test générale
+3. Déployement finale de l'application
+4. Image de profil

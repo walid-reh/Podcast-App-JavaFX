@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1040.0" stylesheets="@../sample/css/main.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Vue.MainViewerController">
+    <children>
+        <Pane prefHeight="500.0" prefWidth="1094.0">
+            <children>
+                <HBox prefHeight="500.0" prefWidth="1094.0" styleClass="background-player">
+                    <children>
+
+                        <VBox prefHeight="500.0" prefWidth="235.0">
+                            <children>
+                                <Label prefHeight="70.0" prefWidth="147.0" />
+                                <Button fx:id="play1" mnemonicParsing="false" onAction="#goToSEARCHMENU" prefHeight="26.0" prefWidth="234.0" text="Go back to Home" />
+                                <Button mnemonicParsing="false" onAction="#saveExit" prefHeight="26.0" prefWidth="236.0" text="Save and Exit" />
+                                <Label prefHeight="50.0" prefWidth="232.0" text="Podcasts" />
+                                <ListView fx:id="podcastList"  prefHeight="328.0" prefWidth="232.0" />
+                            </children></VBox>
+                        <VBox prefHeight="500.0" prefWidth="268.0">
+                            <children>
+                                <Label prefHeight="52.0" prefWidth="265.0" text="Episodes" />
+                                <ListView fx:id="episodeList" prefHeight="450.0" prefWidth="265.0" />
+                            </children></VBox>
+                        <VBox prefHeight="500.0" prefWidth="601.0">
+                            <children>
+                                <StackPane fx:id="videoplayer" prefHeight="403.0" prefWidth="598.0">
+                                    <children>
+                                        <MediaView fx:id="mediaView" fitHeight="300.0" fitWidth="500.0" />
+                                    </children>
+                                </StackPane>
+                                <VBox prefHeight="51.0" prefWidth="598.0">
+                                    <children>
+                                        <Slider fx:id="sliderprogression" />
+                                        <HBox prefHeight="43.0" prefWidth="598.0">
+                                            <children>
+
+                                                <Button fx:id="open_button" mnemonicParsing="false" onAction="#openFileButton" text="open" />
+                                                <Button fx:id="play_button" mnemonicParsing="false" onAction="#playVideo" text="play" />
+                                                <Button fx:id="pause_button" mnemonicParsing="false" onAction="#pauseVideo" text="pause" />
+                                                <Button fx:id="stop_button" mnemonicParsing="false" onAction="#stopVideo" text="stop" />
+
+                                                <VBox prefHeight="200.0" prefWidth="100.0">
+                                                    <children>
+                                                        <Slider fx:id="slidervolume" />
+                                                        <Label text="Volume" />
+                                                    </children>
+                                                </VBox>
+                                                <VBox prefHeight="200.0" prefWidth="100.0" />
+                                            </children>
+                                        </HBox>
+                                        <HBox prefHeight="51.0" prefWidth="598.0" />
+                                    </children>
+                                </VBox>
+                                <Button mnemonicParsing="false" onAction="#nextEpisode" text="Episode Suivant" />
+                                <Button mnemonicParsing="false" onAction="#previousEpisode" text="Episode Precedent" />
+                            </children></VBox>
+                    </children>
+                </HBox>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="471.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SearchMenuController">
+   <children>
+      <BorderPane prefHeight="471.0" prefWidth="600.0">
+         <top>
+            <HBox prefHeight="47.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="47.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label prefHeight="47.0" prefWidth="180.0" text="SEARCH ZONE" textAlignment="CENTER">
+                     <font>
+                        <Font name="Serif Bold" size="20.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.5048076923076923">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.9868420958518982" green="0.3243786692619324" blue="0.3243786692619324" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+               </children>
+            </HBox>
+         </top>
+         <right>
+            <Pane prefHeight="424.0" prefWidth="80.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="podcastbutton" layoutX="1.0" layoutY="1.0" mnemonicParsing="false" onAction="#goToPODCASTLIST" prefHeight="423.0" prefWidth="79.0" text="Podcasts" />
+               </children></Pane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>

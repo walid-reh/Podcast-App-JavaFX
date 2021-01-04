@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="419.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EpisodesMenuController">
+   <children>
+      <BorderPane prefHeight="447.0" prefWidth="600.0">
+         <top>
+            <HBox prefHeight="51.0" prefWidth="600.0" style="-fx-background-color: black,linear-gradient(#777777 10%, #444444 30%, #777777 80%);" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="51.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label prefHeight="51.0" prefWidth="207.0" text="EPISODES LIST" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+                     <font>
+                        <Font name="Serif Bold" size="23.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.47115384615384615">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.9868420958518982" green="0.2604166567325592" blue="0.2604166567325592" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+               </children></HBox>
+         </top>
+         <left>
+            <ButtonBar prefHeight="352.0" prefWidth="85.0" style="-fx-background-color: black,linear-gradient(#777777 10%, #444444 30%, #777777 80%);" BorderPane.alignment="CENTER">
+              <buttons>
+                <Button fx:id="podcastbutton" minWidth="57.0" mnemonicParsing="false" onAction="#goToPODCASTLIST" prefHeight="26.0" text="Podcasts" />
+              </buttons>
+            </ButtonBar>
+         </left>
+         <bottom>
+            <ButtonBar prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: black,linear-gradient(#777777 10%, #444444 30%, #777777 80%);" BorderPane.alignment="CENTER">
+               <buttons>
+                  <Button fx:id="watchbutton" mnemonicParsing="false" onAction="#goToMEDIASCREEN" prefHeight="41.0" prefWidth="590.0" style="-fx-background-color: black,linear-gradient(#777777 10%, #444444 30%, #777777 80%);" text="Watch The Episode" />
+               </buttons>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </ButtonBar>
+         </bottom>
+         <center>
+            <VBox fx:id="episodes" prefHeight="356.0" prefWidth="132.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="episodesLabel" prefHeight="16.0" prefWidth="504.0" />
+                  <ListView fx:id="episodeList" prefHeight="352.0" prefWidth="572.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </ListView>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

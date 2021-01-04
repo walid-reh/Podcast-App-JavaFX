@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.sample.VideoPlayerController">
+    <bottom>
+        <VBox prefHeight="40.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox prefHeight="85.0" prefWidth="602.0">
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#handleButtonAction" text="OpenFile" />
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#playVideo" text="Play" />
+                        <Button layoutX="72.0" layoutY="10.0" mnemonicParsing="false" onAction="#pauseVideo" text="Pause" />
+                        <Button layoutX="134.0" layoutY="10.0" mnemonicParsing="false" onAction="#stopVideo" text="Stop" />
+                        <Button layoutX="134.0" layoutY="10.0" mnemonicParsing="false" onAction="#slowVideo" text="&lt;&lt;&lt;" />
+                        <Button layoutX="258.0" layoutY="10.0" mnemonicParsing="false" onAction="#slowerVideo" text="&lt;&lt;" />
+                        <Button layoutX="320.0" layoutY="10.0" mnemonicParsing="false" onAction="#fastVideo" text="&gt;&gt;" />
+                        <Button layoutX="382.0" layoutY="10.0" mnemonicParsing="false" onAction="#fasterVideo" text="&gt;&gt;&gt;" />
+                        <Button layoutX="368.0" layoutY="10.0" mnemonicParsing="false" onAction="#exitVideo" text="Exit" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </bottom>
+    <center>
+        <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <MediaView fx:id="mediaView" fitHeight="200.0" fitWidth="200.0" />
+            </children></StackPane>
+    </center>
+</BorderPane>

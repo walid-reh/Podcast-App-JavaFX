@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Class-Path: file:/home/walid/.gradle/caches/modules-2/files-2.1/org.co
+ dehaus.groovy/groovy-all/2.3.11/f6b34997d04c1538ce451d3955298f46fdb4d
+ bd4/groovy-all-2.3.11.jar file:/home/walid/.gradle/caches/modules-2/f
+ iles-2.1/com.rometools/rome/1.12.2/eaa7a2025cd38a6678d96b2b78b4f7e68e
+ 3f8e36/rome-1.12.2.jar file:/home/walid/.gradle/caches/modules-2/file
+ s-2.1/com.konghq/unirest-java/3.1.00/35bfceedd0711a859d8fb94901a3a75b
+ 60f9ed6c/unirest-java-3.1.00.jar file:/home/walid/.gradle/caches/modu
+ les-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b
+ 3fbb64cc505bede8829/gson-2.8.5.jar file:/home/walid/.gradle/caches/mo
+ dules-2/files-2.1/org.slf4j/slf4j-simple/1.7.16/f0cacc3d21e1027c82006
+ a7a6f6cf2cad86d2a4f/slf4j-simple-1.7.16.jar file:/home/walid/.gradle/
+ caches/modules-2/files-2.1/com.rometools/rome-utils/1.12.2/240dc40fb9
+ 333ac872319e7d31178bffc63f7900/rome-utils-1.12.2.jar file:/home/walid
+ /.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.16/3a6274
+ f658487d5bfff9af3862beff6da1e7fd52/slf4j-api-1.7.16.jar file:/home/wa
+ lid/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.6/8158
+ 93df5f31da2ece4040fe0a12fd44b577afaf/commons-io-2.6.jar file:/home/wa
+ lid/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/http
+ asyncclient/4.1.4/f3a3240681faae3fa46b573a4c7e50cec9db0d86/httpasyncc
+ lient-4.1.4.jar file:/home/walid/.gradle/caches/modules-2/files-2.1/o
+ rg.apache.httpcomponents/httpmime/4.5.9/c5302bb51f3316b96c0111254ce26
+ 994358fb1cc/httpmime-4.5.9.jar file:/home/walid/.gradle/caches/module
+ s-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.9/a25c1be5ce99
+ d0ce99aa43eb982868c796dd0775/httpclient-4.5.9.jar file:/home/walid/.g
+ radle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3ac
+ b4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar file:/ho
+ me/walid/.gradle/caches/modules-2/files-2.1/commons-logging/commons-l
+ ogging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1
+ .2.jar file:/home/walid/.gradle/caches/modules-2/files-2.1/org.apache
+ .httpcomponents/httpcore-nio/4.4.10/486f90c2af9bb81c51e8fb90564726705
+ 3d5441/httpcore-nio-4.4.10.jar file:/home/walid/.gradle/caches/module
+ s-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.12/21ebaf6d532bc
+ 350ba95bd81938fa5f0e511c132/httpcore-4.4.12.jar file:/home/walid/.gra
+ dle/caches/modules-2/files-2.1/org.jdom/jdom2/2.0.6/6f14738ec2e9dd001
+ 1e343717fa624a10f8aab64/jdom2-2.0.6.jar
+Main-Class: Vue.Main
+
